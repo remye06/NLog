@@ -40,7 +40,7 @@ using System.Security;
 #if NET3_5
     [assembly: AssemblyTitle("NLog for .NET Framework 3.5")]
 #elif NET4_0
-    [assembly: AssemblyTitle("NLog for .NET Framework 4")]
+    [assembly: AssemblyTitle("NLog for .NET Framework 4, with hotfixes")]
 #elif NET4_5
     [assembly: AssemblyTitle("NLog for .NET Framework 4.5")]
 #elif MONO_2_0
@@ -55,6 +55,7 @@ using System.Security;
 #error Unrecognized build target - please update AssemblyInfo.cs
 #endif
 
+[assembly: AssemblyVersion("4.0.0.0")]
 [assembly: AssemblyDescription("NLog")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("NLog")]
